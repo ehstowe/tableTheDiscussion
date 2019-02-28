@@ -17,12 +17,12 @@ var dinnerMaker=function(food, company, place)
   }
 }
 
-var data = [
+var data = {
   dinnerMaker("pizza", "friends", "Papa John's"),
   dinnerMaker("pasta", "Wynnie", "Cowan"),
   dinnerMaker("soup", "family", "home"),
   dinnerMaker("dumpling", "Emma", "China")
-];
+};
 
 var table=d3.select(".data").append("table");
 var rows=table.selectAll("tr")
