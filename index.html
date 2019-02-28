@@ -24,7 +24,7 @@ var data = {
   dinnerMaker("dumpling", "Emma", "China")
 };
 
-var table=d3.select(".data").append("table");
+var table=d3.select("data").append("table");
 var rows=table.selectAll("tr")
               .data(data)
               .enter()
