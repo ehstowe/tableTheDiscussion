@@ -25,6 +25,10 @@ var rows=table.selectAll("tr")
 
 rows.append("td")
   .text(function(d){return d.food});
+ 
+rows.append("td")
   .text(function(d){return d.company});
+ 
+ rows.append("td")
   .text(function(d){return d.place});
 </script>
