@@ -20,6 +20,7 @@ var dinnerMaker=function(food, company, place)
 }
 
 var data = [
+  dinnerMaker("Food", "Company", "Place"),
   dinnerMaker("pizza", "friends", "restaurant"),
   dinnerMaker("pasta", "Wynnie", "Cowan"),
   dinnerMaker("soup", "family", "home"),
@@ -46,12 +47,16 @@ rows.append("td")
   <style>
     table{
       border: 2px solid purple;
-      width: 200px;}
+      width: 200px;
+      background-color: gray}
     
-    td{
+    tr{
       border: 2px solid purple;
       padding: 5px;
       text-size: 20px;}
+    
+    tr{
+      font-style: bold;}
     
   </style>
 
