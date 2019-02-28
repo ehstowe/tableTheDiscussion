@@ -8,6 +8,7 @@
 <body>
   <script type="text/javascript">
     
+    
 
 var dinnerMaker=function(food, company, place)
 {
@@ -24,8 +25,9 @@ var data = [
   dinnerMaker("soup", "family", "home"),
   dinnerMaker("dumpling", "Emma", "China")
 ];
+    
 
-var table=d3.select("data").append("table");
+var table=d3.select("body").append("table");
 var rows=table.selectAll("tr")
               .data(data)
               .enter()
